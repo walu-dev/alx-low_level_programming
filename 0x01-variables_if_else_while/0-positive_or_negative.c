@@ -1,32 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-/**
-* main - main function to generate a random number
-*
-* Return: Always 0 (Success)
-*
-*/
-
-int main(void)
-{
-	int n;
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
-
-}
+[master 6eb6d41] task 0
+ 5 files changed, 64 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/0-positive_or_negative
+ create mode 100644 0x01-variables_if_else_while/0-positive_or_negative.c
+ create mode 100644 0x01-variables_if_else_while/1-last_digit.c
+ create mode 100644 0x01-variables_if_else_while/1-last_digit.c~
+ create mode 100644 0x01-variables_if_else_while/README.md
