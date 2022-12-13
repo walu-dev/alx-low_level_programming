@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
+/**
  * print_sign - eturn 0 if letter is not lowercase, 1 letter is lowercase
  *
  * @n: number to check
- * return: 0 or 1
+ * Return: 0 or 1
  */
 
 
