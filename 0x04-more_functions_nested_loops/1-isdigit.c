@@ -3,7 +3,6 @@
 /**
  * _isdigit - checks if digit
  * @c: parameter
- * 
  * Return: 0 if succesful
  */
 
