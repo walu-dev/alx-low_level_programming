@@ -1,5 +1,3 @@
-ions_nested_loops$ cat 4-print_most_numbers.c
-
 #include "main.h"
 
 /**
