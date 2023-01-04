@@ -18,7 +18,7 @@ int helper(int a, int b)
 
 	return (1);
 }
-/*
+/**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: the number to return the square root of
  * Return: the square root of @n
